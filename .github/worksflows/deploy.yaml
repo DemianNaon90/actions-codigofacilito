@@ -1,4 +1,4 @@
-name: "Hola Mundo"
+name: "Deploy codigo-facilito"
 
 on:
   push:
@@ -7,4 +7,8 @@ on:
     jobs:
     deploy-codigofacilito:
     runs-on: ubuntu-latest
-    
+    steps:
+      run: echo "Hacemos correr pull de código"
+      run: echo "Correr migraciones"
+      run: echo "Generar binario"
+      run: echo "publicar versión"
