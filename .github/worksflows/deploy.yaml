@@ -1,0 +1,5 @@
+name: "Hola Mundo"
+
+on:
+  push:
+    branches: ["main"]
